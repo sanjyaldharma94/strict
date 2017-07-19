@@ -1,0 +1,194 @@
+* {
+	font-family: Arial, sans-serif;
+}
+
+.navigation {
+	background-color: #E2F2A2;
+	padding: 25px 100px;
+}
+.main{
+	background-image: url(../img/lake.jpg);
+	height: 800px;
+	text-align: center;
+
+}
+.main h1{
+	font-style: Italic;
+	color: #A4F2C6;
+	line-height: 47px;
+	font-weight: 600;
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 60px;
+    padding-top: 220px;
+    text-align: center;
+}
+.main hr{
+	border-color: blue;
+	width: 50%;
+	margin: 0 auto;
+}
+.main h2{
+	font-style: Italic;
+	color: #aaa;
+	text-align: center;
+}
+.main button{
+	background-color: transparent;
+	border-top: 1px solid blue;
+	border-bottom: transparent;
+	border-left: 1px solid blue;
+	border-right: transparent;
+	text-align: center;
+	border-radius: 2px;
+	padding: 10px 15px;
+	cursor: pointer;
+	color: red;
+}
+.main a{
+	color: #A9F2D6;
+	margin-top: 100px;
+	display: inline-block;
+}
+.info{
+	background-color: "#f6f9f9";
+	text-align: center;
+	padding: 50px 0;
+}
+.info h1{
+	font-size: 40px;
+	font-style: Italic;
+	font-weight: 400;
+	padding: 10px 25px;
+}
+.info p{
+	color: grey;
+	line-height: 35px;
+	font-weight: 40;
+	width: 75%;
+	margin: 0 auto;	
+}
+/* features*/
+.features{
+	text-align: center;
+}
+.features .box{
+	display: inline-block;
+	font-weight: 300;
+	margin: 7% 3%;
+	padding: 10px;
+	width: 21%;
+}
+.features .iconbox{
+	background: linear-gradient(to right,  #1e5799 0%, #207cca 50%, #2989d8 50%, #7db9e8 100%);
+	background-color: blue;
+	margin: 0 auto;
+	height: 100px;
+	width: 100px;
+}
+.features i{
+	color: black;
+	display: block;
+	font-size: 40px;
+	padding-top: 20px;
+	width: 100%;
+}
+.features h3{
+	font-size: 20px;
+	line-height: 30px;
+	padding: 10px;
+	margin: 0 auto;
+}
+.features p{
+	color: grey;
+	line-height: 22px;
+	font-style: Italic;
+	margin: 0 auto;
+}
+.work{
+	background-color: #A4F2C6;
+	text-align: center;
+	margin: 0;
+}
+.work h3{
+	font-size: 35px;
+	margin: 0 auto;
+	width: 50%;
+	padding-top:35px;
+}
+.work p{
+	font-size: 14px;
+	margin: 0 auto;
+	width: 50%;
+	padding: 25px;
+}
+.work .box{
+	display: inline-block;
+    font-weight: 400;
+    margin: 2% 1% 0%;
+    padding:10px;
+    width: 25%
+}
+.contact{
+	background-image: url(../img/road.png);
+	text-align: center;
+	background-color: rgb(0, 255, 255);
+	margin: 0;
+	height: 500px;
+	background-position: 50%;
+	padding-top: 10px;
+}
+.contact h3{
+	font-size: 22px;
+	padding: 5px;
+	line-height: 10px;
+}
+.contact p{
+	font-size: 14px;
+	padding: 5px;
+	line-height:20px;
+}
+form > input,
+form > textarea{
+     background: transparent;
+     text-align: center;
+	display: block;
+	padding: 10px;
+	margin: 10px auto;
+	width: 35%;
+	border: 1px solid white;
+	color: white;
+}
+form button{
+	cursor: pointer;
+	margin: 35px 50px;
+	border: 1px solid black;
+	padding: 10px;
+	width: 15%;
+	background: transparent;
+}
+.footer{
+ height: 50px;
+ margin: 0;
+ width: 100%;
+}
+.footer p{
+	float: left;
+    margin-left: 75px;
+    
+}
+.SocialIcons{
+	float: right;
+	margin:20px 75px 0 0;
+}
+.SocialIcons a {
+	border-radius: 2px;
+	background-color: #15a4fa;
+	color: #fff;
+	margin: 5px;
+	padding: 7px;
+	text-decoration: none;
+}
+.SocialIcons a:first-child {
+	padding: 7px 9px;
+}
