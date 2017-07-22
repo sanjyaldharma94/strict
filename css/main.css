@@ -1,14 +1,18 @@
 * {
 	font-family: Arial, sans-serif;
+	padding: 0;
+	margin:0;
 }
 
 .navigation {
-	background-color: #E2F2A2;
+	background-color: cyan;
 	padding: 25px 100px;
 }
 .main{
-	background-image: url(../img/lake.jpg);
-	height: 800px;
+	background-image: url(../img/mtn.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 600px;
 	text-align: center;
 
 }
@@ -29,11 +33,15 @@
 	margin: 0 auto;
 }
 .main h2{
-	font-style: Italic;
-	color: #aaa;
+	margin-top: 25px;
+	font-style: italic;
+	color: black;
 	text-align: center;
 }
 .main button{
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 20px;
 	background-color: transparent;
 	border-top: 1px solid blue;
 	border-bottom: transparent;
@@ -131,10 +139,12 @@
 }
 .contact{
 	background-image: url(../img/road.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
 	text-align: center;
 	background-color: rgb(0, 255, 255);
 	margin: 0;
-	height: 500px;
+	height: 400px;
 	background-position: 50%;
 	padding-top: 10px;
 }
